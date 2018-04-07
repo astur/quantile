@@ -1,6 +1,6 @@
 {
   "name": "quantile",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Computes a quantile for sorted array of numbers",
   "main": "index.js",
   "author": "astur <astur@yandex.ru> (http://kozlov.am/)",
