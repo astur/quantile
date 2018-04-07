@@ -1,6 +1,6 @@
 # quantile
 
-quantile description here
+Computes a quantile for sorted array of numbers. Don't do anything else. Extremely easy.
 
 [![Build Status][travis-image]][travis-url]
 [![NPM version][npm-image]][npm-url]
@@ -14,7 +14,18 @@ npm i quantile
 ## Usage
 
 ```js
+quantile(sortedArray, probability);
+```
+
+`quantile` does not check if array is sorted, if it contins only numbers or if `0 <= probability >= 1`. Use correct params.
+
+## Example
+
+```js
 const quantile = require('quantile');
+
+console.log(quantile([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], 0.9));
+
 ```
 
 ## License
