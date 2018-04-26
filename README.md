@@ -17,7 +17,7 @@ npm i quantile
 quantile(sortedArray, probability);
 ```
 
-`quantile` does not check if array is sorted, if it contins only numbers or if `0 <= probability >= 1`. Use correct params.
+`quantile` does not check if array is sorted, if it contains only numbers or if `0 <= probability >= 1`. Use correct params.
 
 ## Example
 
