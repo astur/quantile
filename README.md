@@ -1,6 +1,6 @@
 # quantile
 
-Computes a quantile for sorted array of numbers. Don't do anything else. Extremely easy.
+Computes a [quantile](https://en.wikipedia.org/wiki/Quantile) for sorted array of numbers. Don't do anything else. Extremely easy.
 
 [![Build Status][travis-image]][travis-url]
 [![NPM version][npm-image]][npm-url]
